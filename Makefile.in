@@ -244,9 +244,9 @@ GLIBC_SRC_GIT :=
 endif
 
 $(srcdir)/%/.git:
-	cd && $(dirname)/../ \
-	git submodule init $(dirname $@) && \
-	git submodule sync --single-branch $(dirname $@)
+	cd $(srcdir) && \
+	flock $(srcdir)/.git/config git submodule init $(dir $@) && \
+	flock $(srcdir)/.git/config git submodule update --single-branch $(dir $@)
 
 #
 # GLIBC
