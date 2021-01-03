@@ -1,6 +1,6 @@
 RISC-V GNU Compiler Toolchain
 =============================
-keita
+
 [![Build Status](https://travis-ci.org/riscv/riscv-gnu-toolchain.svg?branch=master)](https://travis-ci.org/riscv/riscv-gnu-toolchain)
 
 This is the RISC-V C and C++ cross-compiler. It supports two build modes:
