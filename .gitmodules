@@ -1,6 +1,7 @@
 [submodule "riscv-binutils"]
 	path = riscv-binutils
 	url = https://github.com/a163236/riscv-binutils-gdb.git
+	branch = pallcの追加
 [submodule "riscv-gcc"]
 	path = riscv-gcc
 	url = https://github.com/riscv/riscv-gcc.git
@@ -16,6 +17,7 @@
 [submodule "riscv-gdb"]
 	path = riscv-gdb
 	url = https://github.com/a163236/riscv-binutils-gdb.git
+	branch = pallcの追加
 [submodule "qemu"]
 	path = qemu
 	url = https://git.qemu.org/git/qemu.git
